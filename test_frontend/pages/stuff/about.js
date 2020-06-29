@@ -1,5 +1,5 @@
 
-import Layout from  '../components/Layout'
+import Layout from '../../components/Layout'
 
 const About = () => {
     console.log('this is the about page ')

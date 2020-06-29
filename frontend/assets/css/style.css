@@ -1,0 +1,94 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.grid{
+    display: grid;
+    background-color: #F2FBF3 ;
+    grid-template-areas:
+    "nav  main"
+    "nav  main";
+    grid-template-rows:40% 60%;
+}
+nav{
+    grid-area: nav;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-left: 20px;
+    color: white;
+    width: 330px;
+}
+.background{
+   background-image: url("https://imgur.com/TLv0Yfy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+.background:hover {
+    opacity: 0.9;
+}
+.navTop{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+main{
+    grid-area: main;
+    font-size: 28px;
+    padding: 0px 10px;
+    width: 700px;
+    height: 1800px;
+}
+.myimg{
+    width: 140px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+    margin-left: 30px;
+}
+.navMid h5{
+    display: flex;
+    padding-top: 10px;
+    color: white;
+}
+.navBottom{
+    margin-top: 60px;
+    margin-left: -43px;
+}
+.navBottomh6{
+    margin-bottom: 20px;
+
+}
+.navBottom li{
+    list-style: none;
+    display: inline;
+    padding-left: 5px;
+}
+.index h2{
+    margin-top: 80px;
+}
+.portfolio{
+    display: grid;
+    grid-template-rows: 200px 800px;
+}
+.portfolio2{
+    display: grid;
+    grid-template-columns: 100px 900px;
+}
+.line {
+    width: 912px;
+    height: 47px;
+    border-bottom: 1px solid black;
+    margin-top: -30px;
+}
+h6{
+    line-height: 200%;
+}
+.parttwo{
+    margin-top: 30px;
+}
+.projects{
+    margin-top: 30px;
+}
+.projectsimg{
+    width: 320px;
+    height: 230px;
+}

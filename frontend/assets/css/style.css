@@ -1,45 +1,42 @@
-body{
+*{
     font-family: 'Open Sans', sans-serif;
 }
 .grid{
     display: grid;
-    background-color: #F2FBF3 ;
     grid-template-areas:
     "nav  main"
     "nav  main";
-    grid-template-rows:40% 60%;
+    grid-template-rows:40% auto;
+    background-color: #f6feff;
+    color: #00444d;
 }
 nav{
     grid-area: nav;
-    position: fixed;
     z-index: 1;
     overflow-x: hidden;
     padding-left: 20px;
-    color: white;
     width: 330px;
+    position: fixed;
 }
 .background{
-   background-image: url("https://imgur.com/TLv0Yfy.jpg");
+   background-image: url("https://i.pinimg.com/564x/16/7c/4c/167c4c77ef3654f1a661b51ee8805b75.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
+    border-top-right-radius: 5%;
 }
-.background:hover {
-    opacity: 0.9;
-}
-.navTop{
-    padding-top: 40px;
+/*.navMid:hover {*/
+/*    color: white;*/
+/*}*/
+.navTop {
+    padding-top: 30px;
     padding-bottom: 25px;
 }
-main{
-    grid-area: main;
-    font-size: 28px;
-    padding: 0px 10px;
-    width: 700px;
-    height: 1800px;
+.navTop h4{
+  color: deeppink;
 }
+
 .myimg{
-    width: 140px;
+    width: 160px;
     border-radius: 50%;
     padding-bottom: 15px;
     margin-left: 30px;
@@ -47,48 +44,139 @@ main{
 .navMid h5{
     display: flex;
     padding-top: 10px;
-    color: white;
 }
 .navBottom{
     margin-top: 60px;
     margin-left: -43px;
 }
-.navBottomh6{
-    margin-bottom: 20px;
-
-}
-.navBottom li{
+.navBottom li {
     list-style: none;
     display: inline;
     padding-left: 5px;
 }
-.index h2{
-    margin-top: 80px;
+main{
+    grid-area: main;
+    font-size: 28px;
+    width: 700px;
+    margin-top: 60px;
 }
-.portfolio{
+.port h6{
+    padding-top: 25px;
+}
+big{
+    font-weight: bolder;
+}
+.partone{
+    color:#7fa6ac ;
+    font-size: 20px;
+}
+.portfolio {
     display: grid;
-    grid-template-rows: 200px 800px;
+    grid-template-rows: 230px auto;
 }
 .portfolio2{
     display: grid;
-    grid-template-columns: 100px 900px;
+    grid-template-columns: 100px auto;
 }
 .line {
     width: 912px;
-    height: 47px;
+    height: 30px;
     border-bottom: 1px solid black;
-    margin-top: -30px;
+    margin-bottom: 30px;
 }
-h6{
+h6 , h5{
     line-height: 200%;
-}
-.parttwo{
-    margin-top: 30px;
-}
-.projects{
-    margin-top: 30px;
 }
 .projectsimg{
     width: 320px;
-    height: 230px;
+    height: 200px;
 }
+.project_cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.card{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.btn{
+    margin-left: 25px;
+}
+.card-title{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+/*---------------------*/
+.myoffer{
+    margin-left: 30px;
+    font-size: .5em;
+    height: 1000px;
+}
+.myoffer h4{
+    color: deeppink;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+ h2 {
+    font-size: 1.4em;
+    margin-bottom: 50px;
+}
+.jumbotron{
+    margin-left:50px;
+    padding: 50px ;
+    width: 900px;
+    background-color: white;
+}
+.resumeTop{
+    text-align: center;
+}
+.lineTwo {
+    width: 770px;
+    height: 47px;
+    border-bottom: 1px solid black;
+
+}
+.resumeBottom > h4{
+    text-decoration: underline;
+    color: deeppink;
+    padding-top: 30px;
+}
+.resumeBottom > p{
+   font-size: .6em;
+}
+.resumeBottom > ul li{
+   font-size: .6em;
+}
+.resumeBottom  h5{
+   margin-bottom: -10px;
+    font-weight: bolder ;
+}
+.edu{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.edu li{
+    line-height: 200%;
+
+}
+a{
+    color: deeppink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

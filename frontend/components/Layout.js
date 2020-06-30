@@ -12,13 +12,13 @@ const Layout = (props) => {
                 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet"></link>
             </Head>
 
-            <div className = 'grid container-fluid ' >
+            <div className = 'grid' >
                 <nav className="background">
                     <div className="transbox">
                         <div className='navTop'>
-                            <img className='myimg' src= 'https://imgur.com/m5KWye4.jpg' alt = ''/>
-                            <h3>SALI SAMIR MOHAMED</h3>
-                            <h5> SOFTWEAR ENGINEERING </h5>
+                            <img className='myimg' src= 'https://imgur.com/Ghlpeff.jpg' alt = ''/>
+                            <h4>SALI SAMIR MOHAMED</h4>
+                            <h6> SOFTWEAR ENGINEERING </h6>
                         </div>
                          <div className='navMid'>
                             <Link href={'/'}><h5>PORTFOLIO ></h5></Link>

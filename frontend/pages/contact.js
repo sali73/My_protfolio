@@ -5,14 +5,14 @@ const Contact = () => {
     return (
         <>
             <Layout>
-                <div >
-                    <h3>CONTACT ME</h3>
-                    <h5>I am available for hire and open to any ideas of cooperation.</h5>
+                <h2>CONTACT ME</h2>
+                <div className='myoffer'>
+                    <h4>I am available for hire and open to any ideas of cooperation.</h4>
                     <ul>
-                        <li><h6>E-mail:</h6><a href='https://www.hotmail.com'><h6><img src= 'https://iconarchive.com/icons/custom-icon-design/mono-general-2/16/mail-icon.png' alt = ''/>sally.elgendy@hotmail.com</h6></a></li>
-                        <li><h6>LinkedIn:</h6><a href='https://www.linkedin.com/in/sali-m-aa7a95b4/' ><h6><img src= 'https://iconarchive.com/icons/graphics-vibe/purple-glossy-social/16/linkedin-icon.png' alt = ''/>Sali Mohamed</h6></a></li>
-                        <li><h6>Github:</h6><a href='https://github.com/sali73'><h6><img src= 'https://iconarchive.com/icons/limav/flat-gradient-social/16/Github-icon.png' alt = ''/>sali73</h6></a></li>
-                        <li><h6>Facebook:</h6><a href='https://www.facebook.com/'><h6><img src= 'https://iconarchive.com/icons/designbolts/pink-girly-social/16/Active-Facebook-icon.png' alt = ''/>elgendy sally</h6></a></li>
+                        <li><h5>E-mail:<a href='https://www.hotmail.com'> sally.elgendy@hotmail.com</a></h5></li>
+                        <li><h5>LinkedIn:<a href='https://www.linkedin.com/in/sali-m-aa7a95b4/' >Sali Mohamed</a></h5></li>
+                        <li><h5>Github:<a href='https://github.com/sali73'>sali73</a></h5></li>
+                        <li><h5>Facebook:<a href='https://www.facebook.com/'>elgendy sally</a></h5></li>
 
                     </ul>
                 </div>

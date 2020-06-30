@@ -38,10 +38,10 @@ const Contact = () => {
                         </ul>
                         <h4>EDUCATION</h4>
                         <ul className='edu'>
-                            <li><a href='https://generalassemb.ly/'>General Assembly -  NY,USA -2020 Software Engineering Immersive</a></li>
-                            <li><a href='https://www.aambfs.org/'>Arab Academy for Banking and Financial Sciences</a> - Financial Management Master’s Degree -  Cairo,Egypt - 2009</li>
-                            <li><a href='http://www.thebesacademy.org/en/page.php?id=3'>Thebes Academy of science and Technology </a>- Information Systems Foundation Degree -  Cairo,Egypt - 2005 </li>
-                            <li><a href='http://www.thebesacademy.org/en/page.php?id=3'>Thebes Academy of science and Technology </a>- Computer Science Bachelor Degree -  Cairo,Egypt - 2004</li>
+                            <li>General Assembly -  NY,USA -2020 Software Engineering Immersive<a href='https://generalassemb.ly/'> LINK </a></li>
+                            <li>Arab Academy for Banking and Financial Sciences<a href='https://www.aambfs.org/'> LINK </a> - Financial Management Master’s Degree -  Cairo,Egypt - 2009</li>
+                            <li>Thebes Academy of science and Technology <a href='http://www.thebesacademy.org/en/page.php?id=3'> LINK </a>- Information Systems Foundation Degree -  Cairo,Egypt - 2005 </li>
+                            <li>Thebes Academy of science and Technology <a href='http://www.thebesacademy.org/en/page.php?id=3'> LINK </a>- Computer Science Bachelor Degree -  Cairo,Egypt - 2004</li>
 
                         </ul>
                 </div>

@@ -1,5 +1,5 @@
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 .grid{
     display: grid;
@@ -15,18 +15,19 @@ nav{
     z-index: 1;
     overflow-x: hidden;
     padding-left: 20px;
-    width: 330px;
+    width: 350px;
     position: fixed;
+    height: 700px;
 }
 .background{
    background-image: url("https://i.pinimg.com/564x/16/7c/4c/167c4c77ef3654f1a661b51ee8805b75.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-top-right-radius: 5%;
+    /*clip-path: polygon(0% 0%, 100% 0%, 115% 100%, 100% 100%, 0% 100% );*/
+    /*clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);*/
+
 }
-/*.navMid:hover {*/
-/*    color: white;*/
-/*}*/
 .navTop {
     padding-top: 30px;
     padding-bottom: 25px;
@@ -34,7 +35,6 @@ nav{
 .navTop h4{
   color: deeppink;
 }
-
 .myimg{
     width: 160px;
     border-radius: 50%;
@@ -46,7 +46,7 @@ nav{
     padding-top: 10px;
 }
 .navBottom{
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: -43px;
 }
 .navBottom li {
@@ -112,22 +112,30 @@ h6 , h5{
 .myoffer{
     margin-left: 30px;
     font-size: .5em;
-    height: 1000px;
+    height: auto;
 }
-.myoffer h4{
+.myoffer h5{
     color: deeppink;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+.myoffer p{
+   margin-bottom: 30px;
+    font-size: 1.1rem;
 }
  h2 {
     font-size: 1.4em;
     margin-bottom: 50px;
 }
+.contact{
+     height: 1000px;
+ }
 .jumbotron{
     margin-left:50px;
     padding: 50px ;
     width: 900px;
     background-color: white;
+
 }
 .resumeTop{
     text-align: center;

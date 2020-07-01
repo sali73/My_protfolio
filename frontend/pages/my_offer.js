@@ -4,7 +4,7 @@ const Offer = () => {
     return (
             <Layout>
                 <div className='offer'>
-                    <h2>MY OFFER </h2>
+                    <h1>MY OFFER </h1>
                 </div>
                 <div className='myoffer'>
                         <p>I have maintained, developed and launched multiple projects from scratch, carrying the development of its' back-end and front-end codebases.

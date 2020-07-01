@@ -1,7 +1,7 @@
 import fetch from 'isomorphic-unfetch';
 import Link from "next/link";
 import Layout from '../components/Layout';
-export default function Index (props) {
+export default function Index ({projects}) {
     return (
         <Layout>
             <div className= 'portfolio'>
@@ -25,8 +25,8 @@ export default function Index (props) {
                                 Create Apps Using Front-end and Back-end Tools.This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like.Also i am graduated of <big>Computer Scince Bachelor degree</big> ==> See <Link href={'/resume'}> my CV </Link> for more details.</h6>
                         <div className='line'></div>
                          <ul className='project_cards'>
-                            {props.projects
-                                ? props.projects.map((index, key) => {
+                            {projects
+                                ? projects.map((index, key) => {
                                     return (
                                             <>
                                                 <div className='card' style={{width: "20rem" }}key={key} >
@@ -43,25 +43,23 @@ export default function Index (props) {
                                 })
                                 : "Loading..."
                                 }
-                    </ul>
+                          </ul>
                 </div>
-            </div>
+                </div>
             </div>
         </Layout>
     )
-
-
 }
-Index.getInitialProps = async (props) => {
+Index.getInitialProps = async () => {
     let res, data, projects;
     try{
-        res = await fetch('http://142.93.253.51:8000/api/v1/project/');
+        res = await fetch('http://127.0.0.1:8000/api/v1/project/');
         data = await res.json();
         projects = data.objects;
     } catch(error){
         console.error(error);
     }
     return {
-        projects
+        projects:projects
     }
 };

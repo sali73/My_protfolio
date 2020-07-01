@@ -1,5 +1,5 @@
 *{
-    font-family: "Roboto", sans-serif;
+    font-family: Verdana, Arial, Tahoma, Serif;
 }
 .grid{
     display: grid;
@@ -7,8 +7,8 @@
     "nav  main"
     "nav  main";
     grid-template-rows:40% auto;
-    background-color: #f6feff;
-    color: #00444d;
+    background-color: white;
+    color: #4A5665 ;
 }
 nav{
     grid-area: nav;
@@ -18,22 +18,22 @@ nav{
     width: 350px;
     position: fixed;
     height: 700px;
+    color: black;
 }
 .background{
-   background-image: url("https://i.pinimg.com/564x/16/7c/4c/167c4c77ef3654f1a661b51ee8805b75.jpg");
+   background-image: url("https://i.imgur.com/QfDvLSR.gif");
     background-repeat: no-repeat;
     background-size: cover;
     border-top-right-radius: 5%;
-    /*clip-path: polygon(0% 0%, 100% 0%, 115% 100%, 100% 100%, 0% 100% );*/
-    /*clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);*/
-
 }
 .navTop {
     padding-top: 30px;
     padding-bottom: 25px;
 }
 .navTop h4{
-  color: deeppink;
+    color: #B31D72;
+    text-shadow: 2px 2px;
+    font-size: 1.8em;
 }
 .myimg{
     width: 160px;
@@ -54,6 +54,9 @@ nav{
     display: inline;
     padding-left: 5px;
 }
+.navBottom h6{
+    color: #4A5665;
+}
 main{
     grid-area: main;
     font-size: 28px;
@@ -62,6 +65,11 @@ main{
 }
 .port h6{
     padding-top: 25px;
+}
+h1{
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+     padding-bottom: 25px;
 }
 big{
     font-weight: bolder;
@@ -72,11 +80,11 @@ big{
 }
 .portfolio {
     display: grid;
-    grid-template-rows: 230px auto;
+    grid-template-rows: 240px auto;
 }
 .portfolio2{
     display: grid;
-    grid-template-columns: 100px auto;
+    grid-template-columns: 80px auto;
 }
 .line {
     width: 912px;
@@ -115,17 +123,14 @@ h6 , h5{
     height: auto;
 }
 .myoffer h5{
-    color: deeppink;
-    margin-top: 28px;
-    margin-bottom: 10px;
+    color: #4A5665 ;
+    margin-top: 20px;
+    color: #B31D72;
 }
 .myoffer p{
-   margin-bottom: 30px;
+   margin-bottom: 20px;
     font-size: 1.1rem;
-}
- h2 {
-    font-size: 1.4em;
-    margin-bottom: 50px;
+    margin-top: 40px;
 }
 .contact{
      height: 1000px;
@@ -134,8 +139,7 @@ h6 , h5{
     margin-left:50px;
     padding: 50px ;
     width: 900px;
-    background-color: white;
-
+    background-color: rgba(229, 201, 168,.1);
 }
 .resumeTop{
     text-align: center;
@@ -144,11 +148,10 @@ h6 , h5{
     width: 770px;
     height: 47px;
     border-bottom: 1px solid black;
-
 }
 .resumeBottom > h4{
     text-decoration: underline;
-    color: deeppink;
+    color: #B31D72;
     padding-top: 30px;
 }
 .resumeBottom > p{
@@ -167,13 +170,95 @@ h6 , h5{
 }
 .edu li{
     line-height: 200%;
-
 }
 a{
-    color: deeppink;
+    color: #B31D72;
 }
 
-
+@media (max-width: 700px) {
+    *{
+        font-size: 12px;
+    }
+  nav{
+     grid-area: nav;
+     width: 150px;
+     height:auto;
+  }
+    main{
+    grid-area: main;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    }
+    .grid{
+    background-color: white;
+    }
+    .myoffer{
+    margin-left: 30px;
+    font-size: .5em;
+    height: auto;
+    width: 800px;
+    }
+    .jumbotron{
+    margin-left:10px;
+    padding: 50px ;
+    width: 700px;
+    font-size: 1.8em;
+    }
+    .navTop > h4{
+        font-size: 1.2em;
+    }
+    .myimg{
+    width: 100px;
+    border-radius: 50%;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    }
+    .navMid h5{
+    display: flex;
+    padding-top: 5px;
+        font-size: 1em;
+    }
+     main{
+    grid-area: main;
+    width: 260px;
+    margin-top: 20px;
+    }
+    .portfolio {
+    display: grid;
+    grid-template-rows: 220px auto;
+    }
+    .portfolio2{
+    display: grid;
+    grid-template-columns: 50px 400px;
+    }
+    .line {
+    width: 340px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    }
+    .myoffer {
+    width: 350px;
+    }
+    .lineTwo{
+    width: 260px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    }
+    .jumbotron{
+    width: 400px ;
+    background-color: white;
+    margin-left: -20px;
+    }
+    .projectsimg{
+    width: 240px;
+    height: 150px;
+    }
+    .project_cards h4 {
+    font-size: 1.6em;
+    }
+}
 
 
 

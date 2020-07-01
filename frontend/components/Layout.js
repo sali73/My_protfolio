@@ -7,6 +7,8 @@ const Layout = (props) => {
         <>
             <Head>
                 <title>portfoilio</title>
+                <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/medium.css' />
+
                 <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/hotel-10-1/48/452-512.png" />
                 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"></link>
         </Head>
@@ -15,7 +17,7 @@ const Layout = (props) => {
                     <div className="transbox">
                         <div className='navTop'>
                             <img className='myimg' src= 'https://imgur.com/Ghlpeff.jpg' alt = ''/>
-                            <h4>SALI SAMIR MOHAMED</h4>
+                            <h4>SALI MOHAMED</h4>
                             <h6> SOFTWEAR ENGINEERING </h6>
                         </div>
                          <div className='navMid'>

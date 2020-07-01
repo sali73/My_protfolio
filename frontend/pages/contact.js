@@ -5,7 +5,7 @@ const Contact = () => {
         <>
             <Layout>
                 <div className='contact'>
-                    <h2>CONTACT ME</h2>
+                    <h1>CONTACT ME</h1>
                     <div className='myoffer'>
                         <p>I am available for hire and open to any ideas of cooperation.</p>
                         <ul>

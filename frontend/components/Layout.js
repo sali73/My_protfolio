@@ -1,4 +1,3 @@
-
 import Head from 'next/head'
 import Link from "next/link";
 import '../assets/css/style.css'
@@ -11,7 +10,7 @@ const Layout = (props) => {
 
                 <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/hotel-10-1/48/452-512.png" />
                 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"></link>
-        </Head>
+            </Head>
             <div className = 'grid ' >
                 <nav className="background">
                     <div className="transbox">
@@ -21,10 +20,11 @@ const Layout = (props) => {
                             <h6> SOFTWEAR ENGINEERING </h6>
                         </div>
                          <div className='navMid'>
-                            <Link href={'/'}><h5>PORTFOLIO ></h5></Link>
-                            <Link href={'/my_offer'}><h5>MY OFFER</h5></Link>
-                            <Link href={'/contact'}><h5>CONTACT ME</h5></Link>
-                            <Link href={'/resume'}><h5>MY CV</h5></Link>
+                            <a href={'/'}>PORTFOLIO ></a>
+                            <a href={'/my_offer'} >MY OFFER</a>
+                           <a href={'/contact'} >CONTACT ME</a>
+                           <a href={'/resume'}>MY CV</a>
+
                         </div>
                         <div className='navBottom'>
                              <ul>

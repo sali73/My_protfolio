@@ -3,13 +3,12 @@ import Link from "next/link";
 import '../assets/css/style.css'
 const Layout = (props) => {
     return (
-        <>
+        <div>
             <Head>
                 <title>portfoilio</title>
                 <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/medium.css' />
-
                 <link rel="icon" href="https://cdn3.iconfinder.com/data/icons/hotel-10-1/48/452-512.png" />
-                <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"></link>
+                <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
             </Head>
             <div className = 'grid ' >
                 <nav className="background">
@@ -24,7 +23,6 @@ const Layout = (props) => {
                             <a href={'/my_offer'} >MY OFFER</a>
                            <a href={'/contact'} >CONTACT ME</a>
                            <a href={'/resume'}>MY CV</a>
-
                         </div>
                         <div className='navBottom'>
                              <ul>
@@ -37,12 +35,11 @@ const Layout = (props) => {
                          </div>
                      </div>
                 </nav>
-
-                <main>
+                <main >
                     {props.children}
                 </main>
             </div>
-        </>
+        </div>
     )
 }
 export default Layout;

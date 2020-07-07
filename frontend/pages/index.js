@@ -98,7 +98,7 @@ async componentDidMount(){
 }
 render(){
     return (
-        <Layout>
+        <Layout >
             <div className= 'portfolio'>
                 <div className= 'port'>
                     <h1>PORTFOLIO</h1>
